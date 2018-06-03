@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import request from 'superagent';
-import logo from '/logo.png';
-import jquery from 'jQuery';
-
+import logo from './logo.png';
 
 class App extends Component {
   constructor () {
@@ -21,14 +19,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div className="App-logo">${logo}</div>
-          <div class="input-group">
+          <img className="logo" src={logo}/>
+          <div className="input-group">
               <input type="text"/>
-              <button type="button" class="button-light">Search</button>
+              <button type="button" className="button-light">Search</button>
           </div>
         </header>
         <p className="App-results">
-
+          <img className="sample-img" src=''/>
         </p>
         <footer className="App-footer"></footer>
       </div>
