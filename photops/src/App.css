@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.App-header {
+  background-color:rgb(0, 0, 0, .85);
+  height: 25%;
+  padding: 20px;
+  color: whitesmoke;
+  ;
+}
+
+.App-footer {
+  background-color: #222222;
+  height: 10%;
+  padding: 20px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.input-group {
+  max-width: 50%;
+  margin: auto;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
